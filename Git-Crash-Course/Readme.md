@@ -33,7 +33,18 @@ cd /workspace/temp
 git clone https://github.com/booleanadv97-alt/Github-Examples.git
 cd GitHub-Examples
 ```
+> You'll need to generate a Personal Access Token (PAT)
 
+You will use the PAT as your password when you login
+
+- Give it access to Contects for Commits
+
+### SSH
+
+```ssh
+git@github.com:booleanadv97-alt/Github-Examples.git
+cd Github-Examples
+```
 ## Commits 
 
 When we want to commit code we can write `git commit` which will open up the commit edit message in the editor of choice.
@@ -49,6 +60,22 @@ Make a commit and commit message without opening an editor
 git commit -m "commit mesasge"
 ``` 
 ## Branches
+
+List of branches 
+
+```
+git branch
+```
+
+Create a new branch
+```
+git branch branch-name
+```
+
+Checkout the branch
+```
+git checkout dev
+```
 
 ## Remotes
 
